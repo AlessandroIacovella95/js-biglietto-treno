@@ -14,6 +14,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - Chiedo all'utente il numero di chilometri che vuole percorrere tramite prompt e aggiungo parseFloat
 - Chiedo all'utente la sua età tramite prompt e aggiungo il parsInt perchè voglio solo valori numerici.
 - Controllo se l'utente ha inserito valori numerici ad età e chilometri
+- Se l'utente ha inserito valori numerici. controllo se sono maggiori di 0
 - Calcolo costo del biglietto in base ai chilometri inserimenti precedentemente dall'utente
 - **SE** l'utente risulta essere minorenne vado ad applicare un sconto del 20% al prezzo del biglietto **ALTRIMENTI SE** l'utente ha un età >= a 65 anni vado ad applicare uno sconto del 40% al prezzo del biglietto
 - Restituisco l'output al cliente con massimo due decimali, per indicare i centesimi sul prezzo del biglieto.
